@@ -19,8 +19,10 @@ This repository provides a basic example of how to start developing a React site
 ### Clone this repo and install dependencies
 
 ```shell
-git clone git@github.com:yextconsulting/site-starter-react-consulting.git
-cd site-starter-react-consulting
+git clone https://github.com/agentile-spotzer/sp-yxt-starter.git [new project name: sp-yxt-xxx]
+cd [sp-yxt-xxx]
+git remote set-url origin https://github.com/[your-username]/[sp-yxt-xxx]
+gh repo create --private --source=.
 npm install
 ```
 
